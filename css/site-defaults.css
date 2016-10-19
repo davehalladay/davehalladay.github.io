@@ -1,0 +1,35 @@
+h1 {
+  font-size: 4em;
+}
+/*
+ * main structure
+ */
+ html,
+ body {
+   height: 100%;
+   background-color: #455A64;
+   font-family: 'Lato', sans-serif;
+ }
+ body {
+  color: #FFFFFF;
+  text-align: center;
+}
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.left-pane {
+  width:200px;
+  margin-top: 0;
+  padding-top: 0;
+  height: 100%;
+  font-family: 'Sanchez', serif;
+  background-color: #CFD8DC;
+}
+.center-window {
+  text-align: center;
+}
