@@ -12,6 +12,7 @@ h1 {
  body {
   color: #FFFFFF;
   text-align: center;
+  overflow: hidden;
 }
 
 a {
